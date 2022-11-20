@@ -1,0 +1,24 @@
+package Lecture1;
+
+public class PrintNumUsingLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// print the sum of numbers  1..10
+		int n=10;
+		int i=1;
+		int sum=0;
+		
+		while(i<=n) {
+		    sum =sum+i;
+		    i=i+1;
+		}
+		
+		System.out.println(sum);
+	
+
+	}
+
+}
